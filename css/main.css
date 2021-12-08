@@ -1,0 +1,557 @@
+@import url(https://fonts.googleapis.com/css?family=Ruda:regular,500,600,700,800,900);
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.page{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/*<HEADER>===================================================================================*/
+.header__container{
+  width: 100%;
+  height: 87px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+.header__content{
+  padding-top: 20px;
+  border-bottom: 2px solid black;
+}
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.nav-link{
+  font-family: Ruda;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(104, 104, 104);
+}
+.nav-link:hover{
+  font-size: 24px;
+  color: black;
+  transition: 0.2s ease;
+}
+/*</HEADER>==================================================================================*/
+
+
+
+/*<PAGE-START>================================================================================*/
+.page-start__container{
+  width: 100%;
+  height: auto;
+  max-width: 950px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.page-start__info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.list-start__info{
+  font-family: Ruda;
+}
+#start-title{
+  font-size: 47px;
+  font-weight: bold;
+}
+#start-description{
+  font-size: 18px;;
+}
+#start-laguage{
+  font-size: 20px;
+  font-weight: bold;
+  transform: rotate(-90deg);
+}
+/*</PAGE-START>===============================================================================*/
+
+
+
+/*<ABOUT>=====================================================================================*/
+.about__container{
+  width: 100%;
+  height: auto;
+}
+.about__content{
+  background-color: #F6F6F6;
+  text-align: center;
+  padding: 50px 0;
+  font-family: Ruda;
+}
+.about-title{
+  padding-bottom: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.about-text{
+  font-size: 18px;
+  line-height: 2;
+}
+/*</ABOUT>====================================================================================*/
+
+
+
+
+
+
+
+
+/*<SKILLS>======================================================================================*/
+.page-skills__container{
+  width: 100%;
+  height: auto;
+  max-width: 950px;
+  margin: 0 auto;
+}
+.page-skill__content{
+  font-family: Ruda;
+  padding: 50px 0;
+}
+.page-skill__content h2{
+  font-size: 47px;
+  text-align: center;
+  font-weight: bold;
+}
+.page-skill__content p{
+  font-size: 18px;
+  text-align: center;
+  padding-top: 40px;
+}
+.programs-list{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+/*</SKILLS>=====================================================================================*/
+
+
+
+
+
+/*<Portfolio>====================================================================================*/
+.page-portfolio__container{
+  width: 100%;
+  height: auto;
+}
+.page-portfolio__content{
+  background-color: #F6F6F6;
+  text-align: center;
+  font-family: Ruda;
+  padding: 80px 0;
+}
+.page-portfolio__content h2{
+  font-size: 47px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+.portfolio-link{
+  display: inline-block;
+  padding: 50px 0 30px 0;
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+}
+.portfolio img{
+  width: 80%;
+}
+/*</Portfolio>===================================================================================*/
+
+
+
+
+
+
+/*<Contacts>======================================================================================*/
+.page-contacts__container{
+  width: 100%;
+  height: auto;
+}
+.page-contacts__content{
+  text-align: center;
+  padding: 80px 0 50px 0;
+  font-family: Ruda;
+}
+.page-contacts__content h2{
+  font-size: 37px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.page-contacts__content p{
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+.contact-btn{
+  width: 30%;
+  font-size: 25px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+.contact-btn:active{
+  background-color: rgb(153, 153, 153);
+  border-color: rgb(153, 153, 153);
+}
+/*</Contacts>=====================================================================================*/
+
+
+
+
+
+
+
+/*<FOOTER>=========================================================================================*/
+.footer__container{
+  width: 100%;
+  height: auto;
+  max-width: 950px;
+  margin: 0 auto;
+}
+.footer__content{
+  font-family: Ruda;
+  text-align: center;
+  padding: 100px 0 50px 0;
+}
+.icons-list{
+  display: flex;
+  padding-bottom: 70px;
+  justify-content: space-evenly;
+}
+.footer__content p{
+  font-size: 18px;
+  color: gray;
+}
+/*</FOOTER>========================================================================================*/
+
+
+
+
+
+
+/*<Burger>=========================================================================================*/
+.burger__menu{
+  display: none;
+}
+
+
+
+
+
+
+
+
+/*</Burger>========================================================================================*/
+
+
+
+
+/*<MEDIA>==========================================================================================*/
+@media(max-width:750px){
+  .programs-list{
+    flex-direction: column;
+    align-items: center;
+  }
+  .skill-photo{
+    padding-top: 70px;
+    width: 100%;
+  }
+  .burger__menu{
+    display: block;
+  }
+  .menu-btn{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+   
+  .menu-btn > span,
+  .menu-btn > span::before,
+  .menu-btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: .25s;
+  }
+  .menu-btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu-btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menubox{
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+  }
+  .menu-item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu-item:hover {
+    background-color: #CFD8DC;
+  }
+  #menu-toggle{
+    opacity: 0;
+  }
+  #menu-toggle:checked ~ .menu-btn > span{
+    transform: rotate(45deg);
+  }
+  #menu-toggle:checked ~ .menu-btn > span::before{
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu-toggle:checked ~ .menu-btn > span::after{
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu-toggle:checked ~ .menubox{
+    visibility: visible;
+    left: 0;
+  }
+  .menu-btn{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+   
+  .menu-btn > span,
+  .menu-btn > span::before,
+  .menu-btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: .25s;
+  }
+  .menu-btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu-btn > span::after {
+    content: '';
+    top: 8px;
+  }
+   
+  .menubox{
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+  }
+   
+  .menu-item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu-item:hover {
+    background-color: #CFD8DC;
+  }
+   
+   
+  #menu-toggle{
+    opacity: 0;
+  }
+   
+  #menu-toggle:checked ~ .menu-btn > span{
+    transform: rotate(45deg);
+  }
+  #menu-toggle:checked ~ .menu-btn > span::before{
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu-toggle:checked ~ .menu-btn > span::after{
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu-toggle:checked ~ .menubox{
+    visibility: visible;
+    left: 0;
+  }
+  .header__menu{
+    display: none;
+  }
+  .about-text{
+    font-size: 14px;
+  }
+  .page-skill__content p{
+    font-size: 16px;
+  }
+  .page-skill__content h2,
+  .page-portfolio__content h2{
+    font-size: 27px;
+  }
+  .portfolio-link{
+    font-size: 16px;
+  }
+  .page-contacts__content h2{
+    font-size: 27px;
+  }
+  .page-contacts__content p{
+    font-size: 16px;
+  }
+  .contact-btn{
+    width: 20%;
+    font-size: 20px;
+  }
+  .icon-link{
+    width: 90%;
+  }
+  .footer__content p{
+    font-size: 16px;
+  }
+  .about-title{
+    font-size: 27px;
+  }
+}
+/*</MEDIA>=========================================================================================*/
+
+
+
+
